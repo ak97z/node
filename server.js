@@ -25,12 +25,12 @@ var server = http.createServer(function(request, response){
     response.statusCode = 200
     response.setHeader('Content-Type', 'text/html;charset=utf-8')
     response.write(`
-    <!DOCTYOE html>
+    <!DOCTYPE html>
     <head>
     <link rel="stylesheet" herf="/x">
     </head>
     <body>
-    被染成红色的二哈
+    <h1>被染成红色的二哈 </h1>
     </body>
     `)
     response.end()
