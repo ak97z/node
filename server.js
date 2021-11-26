@@ -27,7 +27,7 @@ var server = http.createServer(function(request, response){
     response.write(`
     <!DOCTYPE html>
     <head>
-    <link rel="stylesheet" herf="/x">
+    <link rel="stylesheet" href="/x">
     </head>
     <body>
     <h1>被染成红色的二哈 </h1>
